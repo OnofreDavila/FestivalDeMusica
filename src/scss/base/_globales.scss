@@ -1,0 +1,47 @@
+@use 'variables' as v;
+
+/*LOS GLOBALES DE CSS PARA EL PADING Y TAMAÑAN DE LETRA 1 rem seian 10 px*/
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after { 
+    box-sizing: inherit;
+}
+body {
+    font-family: v.$fuente_principal;
+    font-size: 1.6rem; 
+}
+p {
+    font-size: 2rem;
+    color: v.$negro;
+    line-height: 1.5;
+}
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+h1, h2, h3 {
+    margin: 0 0 5rem 0;
+}
+h1 {
+    font-size: 4rem;
+}
+h2 {
+    font-size: 3.6rem;
+}
+h3 {
+    font-size: 3ren;
+}
+img { /*se añade el width y el height por recomendacion de google y safari comno acompañdo de atributos en el index.html */
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+}
